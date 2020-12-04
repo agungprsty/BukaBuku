@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+header {
+    background: #393e46;
+}
+
+nav .navbar-brand {
+    font-family: 'Satisfy', cursive;
+    font-size: 22px;
+}
+
+span {
+    color: #ffa62b;
+    font-weight: bold;
+    line-height: 31.69px;
+}
+
+.navbar-toggler:hover {
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: none;
+}
+
+.form-control {
+    border-radius: 30px 0px 0px 30px;
+}
+
+.search {
+    border-radius: 0px 30px 30px 0px;
+}
+
+.icons-search{
+    text-align: center;
+    margin: 0px 2px 0px 2px;
+}
+
+@media screen and (max-width: 1052px) {
+
+}
+
+@media screen and (max-width: 800px){
+
+}
+
+@media screen and (max-width: 405px) {
+    .input-group{
+        margin-top: 10px;
+        position: relative;
+        display: table;
+        border-collapse: separate;
+        
+    }
+    .form-control{
+        width: 100%;
+    }
+    .my-2 {
+        margin-top: .5rem!important;
+    }
+}

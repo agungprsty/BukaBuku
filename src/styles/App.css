@@ -1,0 +1,15 @@
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    line-height: 1.2;
+    margin: 0;
+    font-weight: 400;
+}
+
+.App {
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
